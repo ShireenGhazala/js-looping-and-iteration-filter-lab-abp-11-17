@@ -7,7 +7,7 @@
 
 function findMatching(drivers,name){
 
-  const MatchingDrivers= drivers.filter(function(driver){
+  let MatchingDrivers= drivers.filter(function(driver){
     if (driver.toUpperCase()===name.toUpperCase()){
       return true;
     } else {
