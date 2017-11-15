@@ -26,6 +26,6 @@ function fuzzyMatch(drivers, string){
     } else {
       return false
     }
-    return matchingDrivers;
+    return matchingDrivers
   })
 }
