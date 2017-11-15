@@ -16,3 +16,13 @@ function findMatching(drivers,name){
   })
   return matchingDrivers;
 }
+
+function fuzzyMatch(drivers, string){
+  let matchingDrivers = drivers.filter(function(driver){
+    if ((driver.slice(0,1).toUpperCase()) === string.toUpperCase()) {
+      return true
+    } else {
+      return false
+    }
+  })
+}
