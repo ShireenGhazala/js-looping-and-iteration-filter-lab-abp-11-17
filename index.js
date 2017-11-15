@@ -7,11 +7,12 @@
 
 function findMatching(drivers,name){
 
-  let MatchingDrivers= drivers.filter(function(driver){
-    if (driver.toUpperCase()===name.toUpperCase()){
-      return true;
+  let matchingDrivers= drivers.filter(function(driver){
+    if (driver.toUpperCase() === name.toUpperCase()){
+      return true
     } else {
-      return false;
+      return false
     }
-  });
+  })
+  return matchingDrivers;
 }
