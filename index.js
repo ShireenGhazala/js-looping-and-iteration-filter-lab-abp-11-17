@@ -26,8 +26,8 @@ function fuzzyMatch(drivers, string){
     } else {
       return false
     }
-    return matchingDrivers2
   })
+  return matchingDrivers2
 }
 
 function matchName(drivers,string){
