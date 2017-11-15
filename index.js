@@ -20,7 +20,7 @@ function findMatching(drivers,name){
 function fuzzyMatch(drivers, string){
   let matchingDrivers2 = drivers.filter(function(driver){
     let str=string.length;
-    let myStr=driver.slice(0,[str+1]);
+    let myStr=driver.slice(0,(str+1));
     if (myStr.toUpperCase() === string.toUpperCase()) {
       return true
     } else {
