@@ -13,6 +13,6 @@ function findMatching(drivers,name){
     } else {
       return false;
     }
-  })
+  });
 
 }
